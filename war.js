@@ -90,13 +90,13 @@ for (let i =0; i < 26; i++) {
     console.log(`${playerTwo.playerName} scores ${playerTwo.points}`); // gives me player 2 points total
     
 }
-
+// announces who won the game or if its a tie and need to play again
 if (playerOne.points > playerTwo.points) {
-    console.log(`${playerOne.playerName} wins`);
+    console.log(`${playerOne.playerName} wins!`);
     } else if (playerTwo.points > playerOne.points) {
-        console.log(`${playerTwo.playerName} is the winner`);
+        console.log(`${playerTwo.playerName} is the winner!`);
     } else {
-        console.log('Its a tie play another game');
+        console.log('Its a tie! Play again');
     }
 
 
